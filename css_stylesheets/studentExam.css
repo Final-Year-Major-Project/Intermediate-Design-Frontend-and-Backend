@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+.head {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(0deg,  rgb(47, 48, 163), rgb(50, 50, 255));
+  }
+  .headline {
+    color: white;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 2.3em;
+  }
+  .nav {
+    margin-top: 7px;
+  }
+  #home-icon {
+    margin-left: 50px;
+    font-size: 2.5em;
+    color: rgb(255, 255, 9);
+  }
+  .logout {
+    float: right;
+    margin-right: 20px;
+    height: 45px;
+    width: 85px;
+    background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235));
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .profile {
+    float: right;
+    margin-right: 30px;
+    height: 45px;
+    width: 100px;
+    background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235));
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .profile:hover {
+    cursor: pointer;
+    color: aliceblue;
+    background: linear-gradient(45deg, rgb(55, 55, 180), rgb(100, 100, 201));
+  }
+  .logout:hover {
+    cursor: pointer;
+    color: aliceblue;
+    background: linear-gradient(45deg, rgb(197, 1, 1), rgb(167, 17, 17));
+  }
+
+  .exam_form {
+    margin: 50px auto;
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    box-shadow: 2px 4px 15px 1px rgba(50, 50, 50, 0.75);
+    border-radius: 10px;
+  }
+  .exam_questions {
+    margin-top: 30px;
+    text-align: left;
+  }
+  table {
+    width: 100%;
+    text-align: left;
+  }
+  td {
+    padding: 7px 10px;
+  }
+  .timer {
+    float: right;
+    /* position: fixed; */
+    padding: 25px;
+    padding-right: 40px;
+  }
+  .new_classroom {
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 125);
+    color: white;
+    padding: 14px 18px;
+    margin: 20px 5px;
+    border: none; 
+    cursor: pointer;
+    width: 23%;
+  }
+  .submit:hover {
+    background-color:  rgb(14, 153, 14);
+    /* border: 1px solid black; */
+    opacity: 1;
+  }

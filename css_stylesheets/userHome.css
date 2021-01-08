@@ -1,0 +1,267 @@
+/* Header */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.head {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(0deg,  rgb(47, 48, 163), rgb(50, 50, 255));
+}
+.headline {
+  color: white;
+  padding-top: 30px;
+  margin-left: 20px;
+  font-size: 2.3em;
+}
+.nav {
+  margin-top: 7px;
+}
+#home-icon {
+  margin-left: 50px;
+  font-size: 2.5em;
+  color: rgb(255, 255, 9);
+}
+.logout {
+  float: right;
+  margin-right: 20px;
+  height: 45px;
+  width: 85px;
+  background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235));
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile {
+  float: right;
+  margin-right: 30px;
+  height: 45px;
+  width: 100px;
+  background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235));
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile:hover {
+  cursor: pointer;
+  color: aliceblue;
+  background: linear-gradient(45deg, rgb(55, 55, 180), rgb(100, 100, 201));
+}
+.logout:hover {
+  cursor: pointer;
+  color: aliceblue;
+  background: linear-gradient(45deg, rgb(197, 1, 1), rgb(167, 17, 17));
+}
+
+
+/* Body */
+
+.user {
+  margin-top: 30px;
+  margin-left: 50px;
+  color: rgb(6, 6, 116);
+}
+
+.row {
+  height: 350px;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-bottom: 10px;
+}
+.section {
+  width: 33.33%;
+  margin-bottom: 10px;
+  float: left;
+  height: 100%;
+  /* position: relative; */
+}
+.column {
+  overflow: scroll;
+  height: 280px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: center;
+  border: 6px solid rgb(50, 50, 255);
+  border-radius: 30px;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0.5px 0.5px 20px black;
+  /* box-shadow: 0.8px 0.8px 10px black; */
+  color:  rgb(50, 50, 255);
+  font-weight: 100;
+  font-size: 18px;
+  
+}
+.column::-webkit-scrollbar {
+  display: none;
+}
+.info {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.col-title {            /* Aligning the column text in center of column*/
+  
+  padding-top: 30px;
+  font-size: 32px;
+}
+.code {
+  margin-top: 30px;
+  font-size: 15px;
+}
+.prof {
+  margin-top: 8px;
+  font-size: 15px;
+}
+.view_classroom {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(50, 50, 255);
+  color: rgb(0, 0, 125);
+  width: 30%;
+  height: 26px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.view_classroom:hover {
+  background-color: rgb(0, 0, 125);
+  border: none;
+  color: white;
+  transition: 0.5s;
+}
+a {
+  text-decoration: none;
+}
+
+.buttons {
+  text-align: center;
+}
+.new_classroom {
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: rgb(0, 0, 125);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 5px;
+  border: none; 
+  cursor: pointer;
+  width: 23%;
+}
+.new_classroom:hover {
+  opacity: 0.85;
+  transition: 0.5s;
+}
+input[type=text], 
+    input[type=password],
+        select { 
+            width: 60%; 
+            padding: 10px 18px; 
+            margin: 8px 0; 
+            display: inline-block; 
+            border: 1px solid black;
+            box-sizing: border-box; 
+            background-color: gainsboro;
+            color: black; 
+}
+.back {
+  position: absolute;
+  top: 350px;
+  right: 150px;
+}
+.submit {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+.submit:hover {
+  background-color:  rgb(14, 153, 14);
+  border: 1px solid black;
+  opacity: 1;
+}
+.back:hover {
+  background-color: rgb(209, 57, 30);
+  border: 1px solid black;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {  
+  .headline {
+    margin-left: 0px;
+    font-size: 2em;
+    text-align: center;
+  }
+  .nav {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #home-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2em;
+    color: rgb(255, 255, 9);
+  }
+  .logout, .profile {
+    height: 50px;
+    width: 80px;
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .logout {
+    margin-right: 10px;
+  }
+  .user {
+    font-size: 0.92em;
+    margin-top: 30px;
+    color: rgb(6, 6, 116);
+  }
+  .section {
+    float: none;
+    width: 100%;
+  }
+  .column {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .row {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  input[type=text], 
+    input[type=password],
+        select { 
+            width: 80%; 
+            padding: 8px 15px; 
+            margin: 8px 0; 
+            display: inline-block; 
+            border: 1px solid rgb(160, 160, 160); 
+            box-sizing: border-box; 
+    } 
+    label {
+        font-size: 0.91em;
+    }
+  .col-title {            /* Aligning the column text in center of column*/
+    font-size: 32px;
+    }
+    .back {
+      right: 60px;
+    }
+    .submit {
+      left: 60px;
+    }
+    .new_classroom {
+      width: auto;
+    }
+}
+
+
